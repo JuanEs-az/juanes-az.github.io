@@ -1,0 +1,32 @@
+@keyframes rainbow{
+    0%{
+        background-color: #FF6961;
+    }
+    15%{
+        background-color: #F7BD56;
+    }
+    25%{
+        background-color: #FDFD96;
+    }
+    35%{
+        background-color: #BDECB6;
+    }
+    50%{
+        background-color: #779ECB;
+    }
+    65%{
+        background-color: #8686AF;
+    }
+    75%{
+        background-color: #CCA9DD;
+    }
+    100%{
+        background-color: tomato;
+    }
+}
+body{
+    background-color: tomato;
+    animation: rainbow 20s ease;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
